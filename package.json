@@ -1,0 +1,31 @@
+{
+  "name": "my-finances",
+  "version": "0.0.1",
+  "description": "Api used to get information for the program my finances.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node ./src/www/server.js",
+    "dev": "./node_modules/.bin/nodemon node ./src/www/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/quantryos/my-finances.git"
+  },
+  "author": "Alex Dias dos Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/quantryos/my-finances/issues"
+  },
+  "homepage": "https://github.com/quantryos/my-finances#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.9"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
